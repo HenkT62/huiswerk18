@@ -1,14 +1,8 @@
-.header {
-color: white;
-padding: 15px;
-height: 200px;
-background-image: url('images/Ridderkerk4.jpg');
-background-repeat: no-repeat;
-background-size: 100%;
-font-size: 48px;
+[class*="col-"] {
+    width: 100%;
 }
 
-body {
+
 @media only screen and (min-width: 600px) {
     [class*="col-"] {
 float: left;
@@ -26,7 +20,15 @@ float: left;
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 }
-
+.header {
+color: white;
+padding: 15px;
+height: 200px;
+background-image: url('images/Ridderkerk4.jpg');
+background-repeat: no-repeat;
+background-size: 100%;
+font-size: 48px;
+}
 footer {
     height: 50px;
     background-color: #41A8BF;
