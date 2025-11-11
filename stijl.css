@@ -51,6 +51,7 @@ h1, h3, h4 {
 
 .col-5 {
     margin: 0px 35px 35px 35px;
+    height: 750px;
 }
 img {
     float: right;
